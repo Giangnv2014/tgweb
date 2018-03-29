@@ -23,7 +23,7 @@ class HomeController extends Controller
             'services' => Service::all(),
             'categories' => Category::all(),
             'blogs' => Post::with('users')->get(),
-            'users' => User::with('social_network')->limit(config('parameters.home.our_team_limit'))->get(),
+            'users' => User::with('socialNetwork')->limit(config('parameters.home.our_team_limit'))->get(),
             'choose_us' => WhyChooseUs::first(),
             'prices' => Price::all(),
             'contacts' => Contact::all(),
