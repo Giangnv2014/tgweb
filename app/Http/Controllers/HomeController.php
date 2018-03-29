@@ -26,6 +26,7 @@ class HomeController extends Controller
             'choose_us' => WhyChooseUs::first(),
             'prices' => Price::all(),
         ];
+        $hhh =  "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj jjjjjjjjjjjjjjjjjjjjjjj jjjjjjjjjjjjjjjj jjjjjjjjjjjjjjj  jjjjjjjjjjjjjjjjj jjjjjjjjj";
 
         return response()->json($data);
     }
