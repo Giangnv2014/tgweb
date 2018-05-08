@@ -28,6 +28,7 @@ class HomeController extends Controller
             'prices' => Price::all(),
             'contacts' => Contact::all(),
         ];
+        $hhh =  "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj jjjjjjjjjjjjjjjjjjjjjjj jjjjjjjjjjjjjjjj jjjjjjjjjjjjjjj  jjjjjjjjjjjjjjjjj jjjjjjjjj";
 
         return response()->json($data);
     }
